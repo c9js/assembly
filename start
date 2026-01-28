@@ -1,0 +1,3 @@
+#!/bin/bash
+FILE_NUMBER=${1:-0}
+npx -y nodemon --quiet "test/${FILE_NUMBER}.js"
